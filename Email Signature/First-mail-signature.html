@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayan Sujon - Email Signature</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: all .2s linear;
+        }
+        .box_container{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #bfbebe;
+        }
+        .box_container .box{
+            width: 700px;
+            background: #4A4A4A;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 10px #4A4A4A;
+            display: flex;
+            align-items: center;
+        }
+        .box_container .box .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 0;
+            width: 260px;
+            background: #333333;
+            clip-path: polygon(0 0, 80% 0, 100% 15%, 100% 85%, 76% 100%, 0 100%);
+        }
+        .box_container .box .image img{
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #EBE76C;
+            object-fit: cover;
+
+        }
+        .box_container .box .content{
+            display: flex;
+            padding: 0 10px;
+        }
+        .box_container .box .content .icon{
+            background: #636262;
+            margin: 0 10px;
+            border-radius: 15px;
+        }
+        .box_container .box .content .icon i{
+            display: block;
+            font-size: 20px;
+            margin: 10px 10px;
+            color: #40F8FF;
+            background: #4A4A4A;
+            border-radius: 50%;
+            padding: 5px;
+            text-align: center;
+        }
+        .box_container .box .content .icon i:first-child{
+            margin-bottom: 60px;
+        }
+        .box_container .box .content .info .name{
+            font-size: 29px;
+            color: #40F8FF;
+            padding: 5px 0;
+        }
+        .box_container .box .content .info .name span{
+            color: #EBE76C;
+        }
+        .box_container .box .content .info .post{
+            display: block;
+            font-size: 18px;
+            color: #b0b8b6;
+            padding-bottom: 32px;
+        }
+        .box_container .box .content .info a{
+            display: block;
+            color: #b0b8b6;
+            padding: 10px 0;
+            transition: all linear.3s;
+        }
+        .box_container .box .content .info a:hover{
+            color: #40F8FF;
+        }
+        .box_container .box .content .share{
+            background: #40F8FF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 15px 0 0 15px;
+            
+
+        }
+        .box_container .box .content .share a{
+            margin: 5px 5px;
+            color: #40F8FF;
+            font-size: 20px;
+            background: #333333;
+            border-radius: 50%;
+            padding: 5px;
+            transition: all linear .3s;
+        }
+        .box_container .box .content .share a:hover{
+            color: #EBE76C;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box_container">
+        <div class="box">
+            <div class="image">
+                <a href="https://ibb.co/pZsNVPz"><img src="https://i.ibb.co/wCb8GLW/Ayan-Sujon-Front-end-Web-Developer-Color-bg.png" alt="Ayan-Sujon-Front-end-Web-Developer-Color-bg" border="0"></a>
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <i class="fas fa-user" ></i>
+                    <i class="fas fa-phone" ></i>
+                    <i class="fas fa-globe" ></i>
+                    <i class="fas fa-envelope" ></i>
+                </div>
+                <div class="info" style="margin-right: 90px;">
+                    <h3 class="name">Ayan <span>Sujon</span> </h3>
+                    <span class="post">Front-end web developer</span>
+                    <a href="#">01684770240</a>
+                    <a href="#">www.ayansujon.com</a>
+                    <a href="mailto:ayansujon.contact@gmail.com">ayansujon.contact@gmail.com</a>
+                </div>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                    <a href="#" class="fab fa-behance"></a>
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
